@@ -1,4 +1,5 @@
-﻿using System.Xml.Linq;
+﻿using System.Threading;
+using System.Xml.Linq;
 using static LINQ.DataSources.Source;
 namespace ConsoleApp1
 {
@@ -46,6 +47,27 @@ namespace ConsoleApp1
 
             //var result = ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
             #endregion
+
+            #region Question 06
+            ////6.Create a new anonymous type with three properties:
+            ////● Name → the product name
+            ////● Price → the unit price
+            ////● StockStatus → a string: "Available" if UnitsInStock > 0, otherwise "Out of Stock"
+            ////● Print the result.
+
+            //var result = ProductList.Select(p => new
+            //{
+            //    Name = p.ProductName,
+            //    Price = p.UnitPrice,
+            //    StockStatus = p.UnitsInStock switch
+            //    {
+            //        > 0 => "Avalible",
+            //        _ => "Out of Stock"
+            //    }
+            //});
+
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
