@@ -1,4 +1,6 @@
-﻿using System.Globalization;
+﻿using ConsoleApp1.Models;
+using System.Collections.Generic;
+using System.Globalization;
 using System.Threading;
 using System.Xml.Linq;
 using static LINQ.DataSources.Source;
@@ -96,6 +98,20 @@ namespace ConsoleApp1
             //        p.ProductName,
             //        p.UnitsInStock,
             //    });
+            #endregion
+
+            #region Question 10
+            ////10.Using QUERY SYNTAX with a compound from clause,
+            ////list all orders placed in 1997 or later showing CustomerID and OrderDate.
+           
+            //var result = from c in CustomerList
+            //             from o in c.Orders
+            //             where o.OrderDate.Year >= 1997
+            //             select new
+            //             {
+            //                 c.CustomerID,
+            //                 o.OrderDate
+            //             };
             #endregion
 
             //foreach (var item in result)
