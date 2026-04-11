@@ -34,6 +34,12 @@ namespace ConsoleApp1
             //var result = ProductList.OrderBy(p => p.UnitPrice)
             //                        .Select(p => $"{p.ProductName} - {p.UnitPrice}");
             #endregion
+
+            #region Question 04
+            //4. Get all products where UnitPrice is between 10 and 30
+
+            //var result = ProductList.Where(p => p.UnitPrice > 10 && p.UnitPrice < 30);
+            #endregion
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
