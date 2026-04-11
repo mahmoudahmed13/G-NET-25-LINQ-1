@@ -27,6 +27,13 @@ namespace ConsoleApp1
             //var result = ProductList.Select(p => p.ProductName).ToList();
 
             #endregion
+
+            #region Question 03
+            //3. Sort all products by UnitPrice (ascending). Print each product's name and price.
+
+            //var result = ProductList.OrderBy(p => p.UnitPrice)
+            //                        .Select(p => $"{p.ProductName} - {p.UnitPrice}");
+            #endregion
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
