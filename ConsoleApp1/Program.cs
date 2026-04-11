@@ -68,6 +68,14 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Question 07
+            //7.Print each product's name along with its position (1-based) in the list.
+            //Expected format: 1. Chai, 2. Chang, etc.
+
+            //var result = ProductList.Select((p, i) => $"{i + 1}.{p.ProductName}");
+
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
