@@ -76,6 +76,14 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Question 08
+            //8.Sort ProductList by Category ascending,
+            //then within each category, sort by UnitPrice descending.
+
+            //var result = ProductList.OrderBy(p => p.Category)
+            //                        .ThenBy(p => p.UnitPrice);       
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
