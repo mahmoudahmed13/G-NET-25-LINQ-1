@@ -1,4 +1,5 @@
-﻿using static LINQ.DataSources.Source;
+﻿using System.Xml.Linq;
+using static LINQ.DataSources.Source;
 namespace ConsoleApp1
 {
     internal class Program
@@ -19,6 +20,15 @@ namespace ConsoleApp1
             //    Console.WriteLine(item);
 
             #endregion
+
+            #region Question 02
+            //2.Get a list of only the product names from ProductList.Print each name. 
+
+            //var result = ProductList.Select(p => p.ProductName).ToList();
+
+            #endregion
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
         }
     }
 }
