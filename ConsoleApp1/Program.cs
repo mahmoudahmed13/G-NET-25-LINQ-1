@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System.Globalization;
+using System.Threading;
 using System.Xml.Linq;
 using static LINQ.DataSources.Source;
 namespace ConsoleApp1
@@ -82,6 +83,19 @@ namespace ConsoleApp1
 
             //var result = ProductList.OrderBy(p => p.Category)
             //                        .ThenBy(p => p.UnitPrice);       
+            #endregion
+
+            #region Question 09
+            //9.Get all products from the "Beverages" category,
+            //sorted by UnitsInStock descending. Print name and stock.
+
+            //var result = ProductList.Where(p => p.ProductName == "Beverages")
+            //    .OrderByDescending(p => p.UnitsInStock)
+            //    .Select(p => new
+            //    {
+            //        p.ProductName,
+            //        p.UnitsInStock,
+            //    });
             #endregion
 
             //foreach (var item in result)
