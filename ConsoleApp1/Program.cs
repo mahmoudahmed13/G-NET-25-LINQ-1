@@ -103,7 +103,7 @@ namespace ConsoleApp1
             #region Question 10
             ////10.Using QUERY SYNTAX with a compound from clause,
             ////list all orders placed in 1997 or later showing CustomerID and OrderDate.
-           
+
             //var result = from c in CustomerList
             //             from o in c.Orders
             //             where o.OrderDate.Year >= 1997
@@ -112,6 +112,13 @@ namespace ConsoleApp1
             //                 c.CustomerID,
             //                 o.OrderDate
             //             };
+            #endregion
+
+            #region Question 11
+            //11.Show position number alongside ProductName.
+
+            //var result = ProductList.Select((p, i) => $"Product Name {p.ProductName} In Position {i}")
+
             #endregion
 
             //foreach (var item in result)
