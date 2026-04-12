@@ -121,6 +121,15 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Question 12
+            ////12.Sort first by-word length and then by a case -insensitive
+            ////sort of the words in an array.
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var result = Arr.OrderBy(a => a.Length)
+            //    .ThenBy(x => x);
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
