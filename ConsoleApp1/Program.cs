@@ -1,5 +1,6 @@
 ﻿using ConsoleApp1.Models;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Globalization;
 using System.Threading;
 using System.Xml.Linq;
@@ -128,6 +129,17 @@ namespace ConsoleApp1
 
             //var result = Arr.OrderBy(a => a.Length)
             //    .ThenBy(x => x);
+            #endregion
+
+            #region Question 13
+            ////13.Create a list of all digits in the array whose second letter is 'i'
+            ////that is reversed from the order in the original array.
+
+            //var digits = new[] { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            //var result = digits.Where(d => d[1] == 'i')
+            //    .Reverse();
+
             #endregion
 
             //foreach (var item in result)
